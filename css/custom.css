@@ -1,0 +1,30 @@
+/* GERAL */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+/* //GERAL */
+
+
+/* HEADER */
+@media (min-width: 992px) { 
+    #header .nav-link{
+        margin-left: 70px;
+  
+    }
+
+    #header .navbar-brand {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    #header .nav-link{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    #header .navbar-brand {
+        margin-left: 50px;
+    }
+}
+/* //HEADER */
