@@ -30,6 +30,36 @@ body {
 /* //HEADER */
 
 
-/* CAROUSEL */
+/* SOBRE */
+#sobre {
+    background-image: url(../assets/17580.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
-/* //CAROUSEL */
+#sobre .container {
+    text-align: center;
+}
+
+#sobre .container h1 {
+    margin: 30px 0 20px 0;   
+}
+
+#sobre .container p {
+    margin: 20px 0 0 0;
+}
+
+#sobre .card {
+    background: transparent;
+    border-color: transparent;
+    margin: 10px 0 0 20px;
+}
+
+#sobre .card-title {
+    margin: 20px 0 0 0;
+}
+
+#sobre .card-text {
+    margin: 0 0 0 0;
+}
+/* //SOBRE */
