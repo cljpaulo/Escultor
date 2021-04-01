@@ -1,6 +1,10 @@
 /* GERAL */
 body {
     font-family: 'Nunito', sans-serif;
+    background-image: url(../assets/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 /* //GERAL */
 
@@ -31,11 +35,6 @@ body {
 
 
 /* SOBRE */
-#sobre {
-    background-image: url(../assets/17580.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
 #sobre .container {
     text-align: center;
