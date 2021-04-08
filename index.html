@@ -12,7 +12,7 @@
 
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="shortcut icon" href="assets/logo.png">
@@ -151,12 +151,19 @@
 
     <!-- SERVIÇOS -->
 
-    <div id="servicos">
+    <div id="servicos" class="block">
       <div class="container">
         <h1>SERVIÇOS</h1>
         <p>Veja algumas esculturas já produzidas</p>
 
-      <div class="row">  
+
+        <div class="button-group" style="text-align: left;">
+          <button type="button" class="active" data-filter="*">TODOS</button>
+          <button type="button" data-filter=".estatua">ESTÁTUA</button>
+          <button type="button" data-filter=".busto">BUSTO</button>
+        </div>
+
+        <div class="row grid">  
           <div class="col-lg-4 element-item busto">
             <a href="assets/servicos/busto1.png" class="popup-link">
               <img src="assets/servicos/busto1.png" alt="Busto 1" class="img-fluid mb-4">
@@ -192,21 +199,17 @@
               <img src="assets/servicos/estatua3.png" alt="Estátua 3" class="img-fluid mb-4">
             </a>
           </div>
-
-      </div>  
+        </div>  
       </div>
     </div>
 
     <!-- //SERVIÇOS -->
 
-
-
-    
-
-
-
     <!-- Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
