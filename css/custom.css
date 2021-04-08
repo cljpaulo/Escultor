@@ -62,3 +62,19 @@ body {
     margin: 0 0 0 0;
 }
 /* //SOBRE */
+
+
+/* SERVIÇOS */
+#servicos {
+    text-align: center;
+    background-color: var(--light);
+}
+
+#servicos .container h1 {
+    margin: 30px 0 20px 0;
+}
+
+#servicos .container p {
+    margin: 20px 0 20px 0;
+}
+/* //SERVIÇOS */
