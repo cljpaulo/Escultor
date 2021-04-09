@@ -116,3 +116,15 @@ body {
     border-radius: 25px;
 }
 /* //CONTATO */
+
+
+/* FOOTER */
+#footer {
+    width: 100%; 
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--light);
+    background-color: var(--secondary);
+}
+/* //FOOTER */
