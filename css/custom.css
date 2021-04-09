@@ -103,3 +103,16 @@ body {
     color: var(--secondary);
 }
 /* //SERVIÇOS */
+
+
+/* CONTATO */
+#contato {
+    background-color: var(--light);
+}
+
+#contato .container .btn {
+    color: var(--light);
+    background-color: var(--secondary);
+    border-radius: 25px;
+}
+/* //CONTATO */
