@@ -27,4 +27,19 @@ jQuery(document).ready(function ($) {
             tCounter: "%curr% de %total%",
         },
     });
+
+    //Voltar ao topo
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > 200) {
+            jQuery('.back-to-top').fadeIn(200);
+        } else {
+            jQuery('.back-to-top').fadeOut(200);
+        }
+    });
+    
+    // Faz animação para subir
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, 300);
+    })
 });
