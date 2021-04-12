@@ -46,16 +46,19 @@ body {
 
 #sobre .container p {
     margin: 20px 0 0 0;
+    animation: texto-sobre 2s ease-in-out 1;
 }
 
 #sobre .card {
     background: transparent;
     border-color: transparent;
     margin: 10px 0 0 20px;
+    animation:scale-in-center 3s ease-in-out both
 }
 
 #sobre .card-title {
     margin: 20px 0 0 0;
+    animation: texto-sobre 3s ease-in-out 1;
 }
 
 #sobre .card-text {
@@ -153,3 +156,28 @@ body {
     background-color: var(--secondary);
 }
 /* //FOOTER */
+
+/* ANIMAÇÃO SOBRE */
+@keyframes texto-sobre {
+    from {
+        opacity: 0;
+        transform: translateX(-1500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scale-in-center{
+    0%{
+        transform:scale(0);
+        opacity:1
+    }
+    100%{
+        transform:scale(1);
+        opacity:1
+    }
+}
+/* //ANIMAÇÃO SOBRE */
